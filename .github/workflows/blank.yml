@@ -27,3 +27,6 @@ jobs:
 
       - name: Bulid the script
         run: ci/build-app.sh
+
+      - name: Run the test
+        run: ci/unit-test-app.sh
