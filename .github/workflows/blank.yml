@@ -32,7 +32,7 @@ jobs:
         run: ci/unit-test-app.sh
 
       - name: Push the artifactory
-        uses: actions/upload-artifactory@v4
+        uses: actions/upload-artifact@v4
         with:
           name: code
           path: .
